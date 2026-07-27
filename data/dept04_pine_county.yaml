@@ -1,0 +1,68 @@
+agency: Pine County Fire District
+fdid: CA-0104
+format_notes: "exported from spreadsheet by hand; verify before use"
+facilities:
+  - id: USNG-PINE-100
+    name: Pine County Sawmill
+    addr:
+      line: Rural Route 9
+      town: Pineville
+      st: CA
+      zip: "94070"
+    coords: "38.0120, -122.5200"          # "lat, lon" as one string
+    occupancy: "industrial sawmill / lumber processing"
+    construction: "Type III (ordinary)"
+    num_floors: 1
+    floor_area_sqft: 140000
+    built: 1968
+    fire_protection:
+      sprinklers: no
+      standpipe: no
+      fdc: unknown
+      knox: Main office trailer
+    hydrants:
+      - {ref: PC-1, at: Mill yard NW, flow_gpm: 800, size_in: 4}
+    hazardous_materials:
+      - name: Combustible dust (sawdust)
+        un: unknown
+        amount: 50000
+        amount_unit: lb
+      - name: Diesel
+        un: UN1202
+        amount: 3000
+        amount_unit: gal
+    utilities:
+      gas: Propane tank north yard
+      electric: Pole transformer entry road
+      water: On-site pond draft site
+    contacts:
+      - {who: Mill Office, role: Foreman, tel: 415-555-6100}
+    last_updated: 2025-05-01
+  - id: USNG-PINE-140
+    name: Pineville Volunteer Station 2 (staffed building)
+    addr:
+      line: 45 Ridge Rd
+      town: Pineville
+      st: CA
+      zip: "94071"
+    coords: unknown
+    occupancy: "fire station / business"
+    construction: "Type V"
+    num_floors: 2
+    floor_area_sqft: 12000
+    built: 1990
+    fire_protection:
+      sprinklers: yes
+      standpipe: no
+      fdc: Apparatus bay north
+      knox: Side entrance
+    hydrants:
+      - {ref: PC-9, at: Ridge Rd frontage, flow_gpm: 1000, size_in: 4}
+    hazardous_materials: []
+    utilities:
+      gas: Rear meter
+      electric: Bay electrical room
+      water: Ridge Rd curb
+    contacts:
+      - {who: Station 2, role: Duty Officer, tel: 4155556140}
+    last_updated: 2025-03-19

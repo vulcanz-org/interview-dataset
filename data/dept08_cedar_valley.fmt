@@ -1,0 +1,21 @@
+# Cedar Valley FD fixed-width layout (1-based columns)
+# name  start  width
+# occ codes: A3=Assembly, I1=Institutional-assisted; constr in roman numerals
+# updated_julian: YYYYDDD (year + day-of-year)
+id              1      16
+name            17     34
+street          51     22
+city            73     14
+state           87     2
+zip             89     5
+lat             94     9
+lon             103    10
+occ             113    4
+constr          117    6
+floors          123    2
+sqft            125    8
+year            133    4
+sprk            137    1
+standpipe       138    1
+knox            139    24
+updated_julian  163    7

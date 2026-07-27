@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preplanExport agency="Oakhaven Fire Department" fdid="CA-0103">
+  <site key="USNG-OAKA-777">
+    <name>Oakhaven Garden Apartments</name>
+    <location>
+      <streetAddress>15 Maple Ct</streetAddress>
+      <municipality>Oakhaven</municipality>
+      <region>CA</region>
+      <postal>94061</postal>
+      <latitude>37.8402</latitude>
+      <longitude>-122.4501</longitude>
+    </location>
+    <use>Apartments</use>
+    <buildingType>Type V</buildingType>
+    <floors>3</floors>
+    <areaSqFt>96000</areaSqFt>
+    <builtYear>1982</builtYear>
+    <sprinklered>false</sprinklered>
+    <standpipe>false</standpipe>
+
+    <knoxBox>Leasing office</knoxBox>
+    <hydrants>
+      <hydrant tag="OK-3"><where>Maple Ct entrance</where><gpm>1000</gpm><inches>4</inches></hydrant>
+    </hydrants>
+    <hazmat>
+      <!-- none reported -->
+    </hazmat>
+    <utilities>
+      <gas>Bldg A rear</gas>
+      <electric>Bldg A meter bank</electric>
+      <water>Maple Ct curb</water>
+    </utilities>
+    <contacts>
+      <person role="Property Mgmt" phone="(415) 555-4001">Leasing Office</person>
+    </contacts>
+    <revised>15-JUN-25</revised>
+  </site>
+  <site key="USNG-GRND-555">
+    <name>Grand Plaza Hotel</name>
+    <location>
+      <streetAddress>500 5th Ave</streetAddress>
+      <municipality>Oakhaven</municipality>
+      <region>CA</region>
+      <postal>94062</postal>
+      <latitude>37.8355</latitude>
+      <longitude>-122.4477</longitude>
+    </location>
+    <use>Hotel</use>
+    <buildingType>Type I</buildingType>
+    <floors>14</floors>
+    <areaSqFt>310000</areaSqFt>
+    <builtYear>2003</builtYear>
+    <sprinklered>true</sprinklered>
+    <standpipe>true</standpipe>
+    <fdc>Porte-cochere, north</fdc>
+    <knoxBox>Valet entrance</knoxBox>
+    <hydrants>
+      <hydrant tag="GP-1"><where>5th Ave main</where><gpm>1500</gpm><inches>6</inches></hydrant>
+      <hydrant tag="GP-2"><where>Service alley</where><gpm>1000</gpm><inches>4</inches></hydrant>
+    </hydrants>
+    <hazmat>
+      <material name="Pool acid" un="UN2796" amount="120" units="gal"/>
+    </hazmat>
+    <utilities>
+      <gas>Sublevel 2 mechanical</gas>
+      <electric>Sublevel 2 switchgear</electric>
+      <water>5th Ave @ valet</water>
+    </utilities>
+    <contacts>
+      <person role="24/7" phone="415-555-5000">Front Desk</person>
+      <person role="Chief Engineer" phone="415-555-5010">Engineering</person>
+    </contacts>
+    <revised>15-JUN-25</revised>
+  </site>
+</preplanExport>

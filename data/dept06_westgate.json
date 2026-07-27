@@ -1,0 +1,76 @@
+{
+  "department": "Westgate Fire Department",
+  "unit_system": "metric",
+  "records": [
+    {
+      "uid": "USNG-WGDC-404",
+      "title": "Westgate Data Center",
+      "addressLine": "2200 Server Way",
+      "locality": "Westgate",
+      "adminArea": "CA",
+      "postCode": "94090",
+      "latitude": 37.69,
+      "longitude": -122.45,
+      "occupancyClass": "Business / Data Processing",
+      "constructionClass": "Type I",
+      "levels": 2,
+      "areaSquareMeters": 23225.8,
+      "yearConstructed": 2015,
+      "sprinklerProtected": "yes",
+      "standpipeSystem": "yes",
+      "fireDeptConnection": "North utility yard",
+      "knoxLocation": "Security vestibule",
+      "hydrantList": [
+        {
+          "label": "WG-1",
+          "position": "Server Way main",
+          "flowLitresPerMinute": 5999.0,
+          "diameterMillimetres": 152
+        },
+        {
+          "label": "WG-2",
+          "position": "Generator yard",
+          "flowLitresPerMinute": 5999.0,
+          "diameterMillimetres": 152
+        }
+      ],
+      "residualPressureKpa": 480,
+      "dangerousGoods": [
+        {
+          "substance": "Diesel (backup gen)",
+          "unNumber": "UN1202",
+          "quantity": 20000,
+          "quantityUnit": "gal"
+        },
+        {
+          "substance": "FM-200 clean agent",
+          "unNumber": "UN3163",
+          "quantity": 4000,
+          "quantityUnit": "lb"
+        },
+        {
+          "substance": "VRLA batteries",
+          "unNumber": "UN2800",
+          "quantity": 8000,
+          "quantityUnit": "lb"
+        }
+      ],
+      "gasIsolation": "None (all-electric)",
+      "electricalIsolation": "Utility yard, north; 2 x 2MVA",
+      "waterIsolation": "Server Way main",
+      "siteContacts": [
+        {
+          "fullName": "NOC",
+          "position": "24/7 Network Ops",
+          "telephone": "(415) 555-8080"
+        },
+        {
+          "fullName": "Priya Anand",
+          "position": "Site Reliability",
+          "telephone": "415-555-8090"
+        }
+      ],
+      "lastReviewed": "2025-11-15T09:30:00Z"
+    }
+  ]
+}

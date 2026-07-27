@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HarborFD>
+ <Building recid="USNG-HRCL-212">
+  <Descr>Harbor Community Clinic</Descr>   
+  <Addr>12 Bayfront Rd; Harbor, CA 94120</Addr>
+  <LatDMS>37°55'48.0"N</LatDMS>
+  <LonDMS>122°20'24.0"W</LonDMS>
+  <UseGroup>I-2 clinic (outpatient)</UseGroup>
+  <TypeConstr>Type II</TypeConstr>
+  <Levels>2</Levels>
+  <SqFt>38000</SqFt>
+  <Built>2001</Built>
+  <HasSprinkler>Y</HasSprinkler>
+  <HasStandpipe>N</HasStandpipe>
+  <FDC>East entrance</FDC>
+  <KnoxBox>Main lobby</KnoxBox>
+  <Hydrants>
+    <FirePlug num="HB-1" loc="Bayfront Rd main" rate="1000gpm" dia="4in"/>
+  </Hydrants>
+  <Hazards>
+    <Chem desc="Medical oxygen" unid="UN1072" qty="1200 gal"/>
+  </Hazards>
+  <Shutoffs gas="Rear mechanical" elec="Utility room, hallway 1" water="Bayfront Rd curb"/>
+  <Contact name="Clinic Front Desk" role="Admin" ph="415-555-1212"/>
+  <RevDate>2025/09/28</RevDate>
+ </Building>
+</HarborFD>

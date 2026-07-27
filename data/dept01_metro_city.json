@@ -1,0 +1,132 @@
+{
+  "agency": "Metro City Fire Department",
+  "fdid": "CA-0101",
+  "schema_version": "mcfd.v3",
+  "preplans": [
+    {
+      "external_id": "USNG-MERCY-001",
+      "facility_name": "Mercy General Hospital",
+      "address": {
+        "street": "1200 Medical Center Dr",
+        "city": "Metro City",
+        "state": "CA",
+        "zip": "94021"
+      },
+      "geo": {
+        "lat": 37.7841,
+        "lng": -122.4012
+      },
+      "occupancy": "Health Care (I-2)",
+      "construction": "Type I",
+      "stories": 8,
+      "square_feet": 420000,
+      "year_built": 1994,
+      "protection": {
+        "sprinklered": true,
+        "standpipe": true,
+        "fdc_location": "NE corner, Emergency entrance",
+        "knox_box": "Main lobby, west door"
+      },
+      "hydrants": [
+        {
+          "id": "H-1",
+          "location": "Medical Center Dr @ main entrance",
+          "flow_gpm": 1500,
+          "size_in": 6
+        },
+        {
+          "id": "H-2",
+          "location": "Rear loading dock",
+          "flow_gpm": 1000,
+          "size_in": 4
+        }
+      ],
+      "hazmat": [
+        {
+          "material": "Bulk oxygen",
+          "un": "UN1073",
+          "qty": 6000,
+          "unit": "gal"
+        },
+        {
+          "material": "Diesel (generator)",
+          "un": "UN1202",
+          "qty": 2000,
+          "unit": "gal"
+        }
+      ],
+      "utilities": {
+        "gas": "Basement, SW mechanical room",
+        "electric": "Basement main switchgear",
+        "water": "Curb, Medical Center Dr"
+      },
+      "contacts": [
+        {
+          "name": "Dana Ruiz",
+          "role": "Facilities Mgr",
+          "phone": "(415) 555-0142"
+        },
+        {
+          "name": "Security Desk",
+          "role": "24/7 Security",
+          "phone": "415-555-0100"
+        }
+      ],
+      "last_updated": "2025-11-02"
+    },
+    {
+      "external_id": "USNG-LINC-014",
+      "facility_name": "Lincoln Elementary School",
+      "address": {
+        "street": "88 Oak St",
+        "city": "Metro City",
+        "state": "CA",
+        "zip": "94022"
+      },
+      "geo": {
+        "lat": 37.7699,
+        "lng": -122.433
+      },
+      "occupancy": "Educational (E)",
+      "construction": "Type II",
+      "stories": 2,
+      "square_feet": 54000,
+      "year_built": 1971,
+      "protection": {
+        "sprinklered": true,
+        "standpipe": false,
+        "fdc_location": "North wall, gym entrance",
+        "knox_box": "Front office door"
+      },
+      "hydrants": [
+        {
+          "id": "H-11",
+          "location": "Oak St @ flagpole",
+          "flow_gpm": 1000,
+          "size_in": 4
+        }
+      ],
+      "hazmat": [
+        {
+          "material": "Pool chlorine",
+          "un": "UN2880",
+          "qty": 300,
+          "unit": "lb"
+        }
+      ],
+      "utilities": {
+        "gas": "East mechanical yard",
+        "electric": "Custodian room, hallway B",
+        "water": "Front lawn shutoff"
+      },
+      "contacts": [
+        {
+          "name": "Principal Office",
+          "role": "Admin",
+          "phone": "4155550188"
+        }
+      ],
+      "last_updated": "2025-08-15"
+    }
+  ]
+}
