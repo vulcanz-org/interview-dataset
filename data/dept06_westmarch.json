@@ -1,16 +1,16 @@
 {
-  "department": "Westgate Fire Department",
+  "department": "Westmarch Fire Department",
   "unit_system": "metric",
   "records": [
     {
-      "uid": "USNG-WGDC-404",
-      "title": "Westgate Data Center",
+      "uid": "USNG-WMDC-404",
+      "title": "Westmarch Data Center",
       "addressLine": "2200 Server Way",
-      "locality": "Westgate",
-      "adminArea": "CA",
-      "postCode": "94090",
+      "locality": "Westmarch",
+      "adminArea": "ZZ",
+      "postCode": "00090",
       "latitude": 37.69,
-      "longitude": -122.45,
+      "longitude": -142.45,
       "occupancyClass": "Business / Data Processing",
       "constructionClass": "Type I",
       "levels": 2,
@@ -62,12 +62,12 @@
         {
           "fullName": "NOC",
           "position": "24/7 Network Ops",
-          "telephone": "(415) 555-8080"
+          "telephone": "(555) 555-8080"
         },
         {
           "fullName": "Priya Anand",
           "position": "Site Reliability",
-          "telephone": "415-555-8090"
+          "telephone": "555-555-8090"
         }
       ],
       "lastReviewed": "2025-11-15T09:30:00Z"

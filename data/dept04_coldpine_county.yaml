@@ -1,15 +1,15 @@
-agency: Pine County Fire District
-fdid: CA-0104
+agency: Coldpine County Fire District
+fdid: ZZ-0104
 format_notes: "exported from spreadsheet by hand; verify before use"
 facilities:
-  - id: USNG-PINE-100
-    name: Pine County Sawmill
+  - id: USNG-CPNE-100
+    name: Coldpine County Sawmill
     addr:
       line: Rural Route 9
-      town: Pineville
-      st: CA
-      zip: "94070"
-    coords: "38.0120, -122.5200"          # "lat, lon" as one string
+      town: Coldpine
+      st: ZZ
+      zip: "00070"
+    coords: "38.0120, -142.5200"          # "lat, lon" as one string
     occupancy: "industrial sawmill / lumber processing"
     construction: "Type III (ordinary)"
     num_floors: 1
@@ -36,15 +36,15 @@ facilities:
       electric: Pole transformer entry road
       water: On-site pond draft site
     contacts:
-      - {who: Mill Office, role: Foreman, tel: 415-555-6100}
+      - {who: Mill Office, role: Foreman, tel: 555-555-6100}
     last_updated: 2025-05-01
-  - id: USNG-PINE-140
-    name: Pineville Volunteer Station 2 (staffed building)
+  - id: USNG-CPNE-140
+    name: Coldpine Volunteer Station 2 (staffed building)
     addr:
       line: 45 Ridge Rd
-      town: Pineville
-      st: CA
-      zip: "94071"
+      town: Coldpine
+      st: ZZ
+      zip: "00071"
     coords: unknown
     occupancy: "fire station / business"
     construction: "Type V"
@@ -64,5 +64,5 @@ facilities:
       electric: Bay electrical room
       water: Ridge Rd curb
     contacts:
-      - {who: Station 2, role: Duty Officer, tel: 4155556140}
+      - {who: Station 2, role: Duty Officer, tel: 5555556140}
     last_updated: 2025-03-19

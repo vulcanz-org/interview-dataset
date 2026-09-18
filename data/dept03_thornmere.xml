@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preplanExport agency="Oakhaven Fire Department" fdid="CA-0103">
-  <site key="USNG-OAKA-777">
-    <name>Oakhaven Garden Apartments</name>
+<preplanExport agency="Thornmere Fire Department" fdid="ZZ-0103">
+  <site key="USNG-THGA-777">
+    <name>Thornmere Garden Apartments</name>
     <location>
       <streetAddress>15 Maple Ct</streetAddress>
-      <municipality>Oakhaven</municipality>
-      <region>CA</region>
-      <postal>94061</postal>
+      <municipality>Thornmere</municipality>
+      <region>ZZ</region>
+      <postal>00061</postal>
       <latitude>37.8402</latitude>
-      <longitude>-122.4501</longitude>
+      <longitude>-142.4501</longitude>
     </location>
     <use>Apartments</use>
     <buildingType>Type V</buildingType>
@@ -31,19 +31,19 @@
       <water>Maple Ct curb</water>
     </utilities>
     <contacts>
-      <person role="Property Mgmt" phone="(415) 555-4001">Leasing Office</person>
+      <person role="Property Mgmt" phone="(555) 555-4001">Leasing Office</person>
     </contacts>
     <revised>15-JUN-25</revised>
   </site>
-  <site key="USNG-GRND-555">
-    <name>Grand Plaza Hotel</name>
+  <site key="USNG-THPL-555">
+    <name>Thornmere Plaza Hotel</name>
     <location>
       <streetAddress>500 5th Ave</streetAddress>
-      <municipality>Oakhaven</municipality>
-      <region>CA</region>
-      <postal>94062</postal>
+      <municipality>Thornmere</municipality>
+      <region>ZZ</region>
+      <postal>00062</postal>
       <latitude>37.8355</latitude>
-      <longitude>-122.4477</longitude>
+      <longitude>-142.4477</longitude>
     </location>
     <use>Hotel</use>
     <buildingType>Type I</buildingType>
@@ -67,8 +67,8 @@
       <water>5th Ave @ valet</water>
     </utilities>
     <contacts>
-      <person role="24/7" phone="415-555-5000">Front Desk</person>
-      <person role="Chief Engineer" phone="415-555-5010">Engineering</person>
+      <person role="24/7" phone="555-555-5000">Front Desk</person>
+      <person role="Chief Engineer" phone="555-555-5010">Engineering</person>
     </contacts>
     <revised>15-JUN-25</revised>
   </site>
