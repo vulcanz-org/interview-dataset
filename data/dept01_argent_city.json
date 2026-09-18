@@ -1,20 +1,20 @@
 {
-  "agency": "Metro City Fire Department",
-  "fdid": "CA-0101",
-  "schema_version": "mcfd.v3",
+  "agency": "Argent City Fire Department",
+  "fdid": "ZZ-0101",
+  "schema_version": "acfd.v3",
   "preplans": [
     {
-      "external_id": "USNG-MERCY-001",
-      "facility_name": "Mercy General Hospital",
+      "external_id": "USNG-CALDR-001",
+      "facility_name": "Calder General Hospital",
       "address": {
         "street": "1200 Medical Center Dr",
-        "city": "Metro City",
-        "state": "CA",
-        "zip": "94021"
+        "city": "Argent City",
+        "state": "ZZ",
+        "zip": "00021"
       },
       "geo": {
         "lat": 37.7841,
-        "lng": -122.4012
+        "lng": -142.4012
       },
       "occupancy": "Health Care (I-2)",
       "construction": "Type I",
@@ -64,28 +64,28 @@
         {
           "name": "Dana Ruiz",
           "role": "Facilities Mgr",
-          "phone": "(415) 555-0142"
+          "phone": "(555) 555-0142"
         },
         {
           "name": "Security Desk",
           "role": "24/7 Security",
-          "phone": "415-555-0100"
+          "phone": "555-555-0100"
         }
       ],
       "last_updated": "2025-11-02"
     },
     {
-      "external_id": "USNG-LINC-014",
-      "facility_name": "Lincoln Elementary School",
+      "external_id": "USNG-HALW-014",
+      "facility_name": "Halworth Elementary School",
       "address": {
         "street": "88 Oak St",
-        "city": "Metro City",
-        "state": "CA",
-        "zip": "94022"
+        "city": "Argent City",
+        "state": "ZZ",
+        "zip": "00022"
       },
       "geo": {
         "lat": 37.7699,
-        "lng": -122.433
+        "lng": -142.433
       },
       "occupancy": "Educational (E)",
       "construction": "Type II",
@@ -123,7 +123,7 @@
         {
           "name": "Principal Office",
           "role": "Admin",
-          "phone": "4155550188"
+          "phone": "5555550188"
         }
       ],
       "last_updated": "2025-08-15"
